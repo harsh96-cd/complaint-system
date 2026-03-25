@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    (function(){
+        emailjs.init("SRsNgi_x8Yl6uHdAT");
+    })();
+    </script>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <div class="top-bar">
+        <h2>Student Portal</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <p id="welcomeText"></p>
+
+    <div class="form-box">
+        <h3>Submit New Complaint</h3>
+
+        <input type="text" id="complaintName" placeholder="Your Name">
+        <textarea id="complaintText" placeholder="Enter complaint"></textarea>
+
+        <button onclick="submitComplaint()">Submit Complaint</button>
+    </div>
+
+    <div class="history">
+        <h3>My Complaints</h3>
+        <ul id="complaintList"></ul>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
