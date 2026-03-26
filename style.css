@@ -78,7 +78,21 @@ button {
 .top-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
+
+.top-bar button{
+    .top-bar button {
+    padding: 8px 15px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+}
+
 
 .form-box {
     background: white;
