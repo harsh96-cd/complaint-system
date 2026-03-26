@@ -82,15 +82,14 @@ button {
     margin-bottom: 20px;
 }
 
-.top-bar button{
-    .top-bar button {
-    padding: 8px 15px;
-    border-radius: 8px;
-    background: #ffffff;
-    color: #333;
-    border: 1px solid #ccc;
+.top-bar button {
+    padding: 0;
+    margin: 0;
+    background: #7cc7ea;
+    border: 1px;
+    font-size: 16px;
+    color: #2d6cdf;
     cursor: pointer;
-}
 }
 
 
